@@ -1,0 +1,54 @@
+/* Task 1 */
+a {
+    color: #007BFF; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #FF5733; 
+}
+
+/* Task 2 */
+.button {
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: transform 0.2s ease; 
+}
+
+.button:active {
+    animation: clickAnimation 0.2s forwards; 
+}
+
+@keyframes clickAnimation {
+    0% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1.1); 
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Task 3 */
+.icon {
+    width: 50px; 
+    height: 50px; 
+    animation: rotateAnimation 3s linear infinite; 
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

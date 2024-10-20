@@ -1,0 +1,30 @@
+/* Task 1 */
+.background-fade {
+    background-color: rgba(0, 0, 255, 0.5); 
+    padding: 20px; 
+    border-radius: 5px; /
+}
+
+/* Task 2 */
+h1 {
+    color: white; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    font-size: 2em;
+    margin: 20px; 
+}
+
+/* Task 3 */
+.button {
+    background-color: rgba(0, 128, 255, 0.8); 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+    background-color: rgba(0, 128, 255, 0.5);
+}
